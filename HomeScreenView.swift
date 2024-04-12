@@ -210,10 +210,4 @@ struct HomeScreenView: View {
 
 
 
-// Usage example in ContentView or similar
-struct HomeScreen_Previews: PreviewProvider {
-    static var previews: some View {
-        HomeScreenView(userId: "1712050712728x493217109742803300", token: "us_runcentive1_test_1712050712728x493217109742803300_1712865328568x455962505641331000")
-            .preferredColorScheme(.dark) // Preview in dark mode
-    }
-}
+
