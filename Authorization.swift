@@ -17,7 +17,7 @@ class AuthenticationService: ObservableObject {
         let url = URL(string: "https://runcentive1.bubbleapps.io/version-test/api/1.1/wf/login")!
         var request = URLRequest(url: url)
         request.httpMethod = "POST"
-        request.addValue("Bearer 1930ea9a9991b1afb8420b4694d57c27", forHTTPHeaderField: "Authorization")
+        request.addValue("Bearer <BearerToken>", forHTTPHeaderField: "Authorization")
         request.addValue("application/x-www-form-urlencoded", forHTTPHeaderField: "Content-Type")
         
         let bodyParameters = [
